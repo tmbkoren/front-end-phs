@@ -1,0 +1,14 @@
+.lang {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+
+    &__btn {
+        border: none;
+        background-color: $color-blue-dark;
+        padding: 1rem;
+        border-radius: 50%;
+        text-transform: uppercase;
+        color: $color-grey-light-1;
+    }
+}

@@ -1,0 +1,10 @@
+.error {
+    height: 100vh;
+    background-color: $color-primary-dark;
+    text-align: center;
+    padding-top: 10vh;
+
+    @include respond(tab-port) {
+        padding-top: 60vh;
+    }
+}
