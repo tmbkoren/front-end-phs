@@ -1,4 +1,10 @@
 const soundboard_loc = {
+    en: {
+        total: 'Total',
+    },
+    ru: {
+        total: 'Всего',
+    }
 
 }
 

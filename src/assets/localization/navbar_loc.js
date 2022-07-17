@@ -12,7 +12,7 @@ const navbar_loc = {
     login: 'Вход',
     account: "Аккаунт",
     soundboard: "Саундборд",
-    users: "Челики",
+    users: "Челы",
     news: "Новости",
     info: "Инфа",
     links: "Ссылки",

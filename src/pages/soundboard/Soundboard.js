@@ -6,21 +6,30 @@ import { useState } from "react";
 import SinglePersonBoard from "./SinglePersonBoard";
 
 const Soundboard = () => {
+  const [currPerson, setCurrPerson] = useState("badai4");
+  console.log(sounds);
+  console.log(currPerson);
 
-    const [currPerson, setCurrPerson] = useState('');
-    console.log(sounds);
-    console.log(currPerson);
-
-    return (
-        <main className="main">
-            {sounds.map((item) => {
-                return(
-                    <button key={item.id} onClick={() => setCurrPerson(item.name)}>{item.name}</button>
-                );
-            })}
-            <SinglePersonBoard name={currPerson} />
-        </main>
-    );
-}
+  return (
+    <main className='main'>
+      <section className='soundboard'>
+        <div className='soundboard__button-container'>
+          {sounds.map((item) => {
+            return (
+              <button
+                className='soundboard__button soundboard__button--person'
+                key={item.id}
+                onClick={() => setCurrPerson(item.name)}
+              >
+                {item.name}
+              </button>
+            );
+          })}
+        </div>
+        <SinglePersonBoard name={currPerson} />
+      </section>
+    </main>
+  );
+};
 
 export default Soundboard;

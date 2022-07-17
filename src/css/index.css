@@ -289,11 +289,19 @@ body {
 }
 .lang__btn {
   border: none;
-  background-color: #5643fa;
+  background-color: #5865f2;
   padding: 1rem;
   border-radius: 50%;
   text-transform: uppercase;
   color: #f7f7f7;
+  transition: all 0.2s;
+}
+.lang__btn:hover {
+  cursor: pointer;
+  background-color: #4752c4;
+}
+.lang__btn:active {
+  background-color: #3c44a5;
 }
 
 .row {
@@ -375,6 +383,55 @@ body {
   .error {
     padding-top: 60vh;
   }
+}
+
+.soundboard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.soundboard__button-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin: 3rem 3rem;
+}
+.soundboard__button {
+  background-color: #5865f2;
+  border: none;
+  border-radius: 3px;
+  transition: 0.2s;
+  color: #fff;
+  font-weight: 700;
+}
+.soundboard__button--person {
+  min-width: 10rem;
+  padding: 1rem 0.5rem;
+}
+.soundboard__button:hover {
+  cursor: pointer;
+  background-color: #4752c4;
+}
+.soundboard__button:active {
+  background-color: #3c44a5;
+}
+.soundboard__playback-container {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  align-items: center;
+}
+.soundboard__playback-container--title {
+  font-size: 5rem;
+}
+.soundboard__playback-container--amount {
+  font-size: 2.5rem;
+}
+.soundboard__playback--control-btn, .soundboard__playback--play-btn {
+  padding: 0.7rem 0.7rem;
+  margin: 1rem 1rem;
 }
 
 /*# sourceMappingURL=index.css.map */
