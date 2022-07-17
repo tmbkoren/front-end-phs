@@ -22,7 +22,7 @@ const SinglePersonBoard = ({ name }) => {
   };
 
   const prevIndex = () => {
-    if (currIndex === -1) {
+    if (currIndex === 0) {
       setCurrIndex(currPerson.sounds.length - 1);
     } else {
       setCurrIndex(currIndex - 1);
