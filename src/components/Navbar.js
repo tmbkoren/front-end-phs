@@ -18,7 +18,6 @@ const Navbar = () => {
     console.log(navOpen);
   };
 
-
   return (
     <nav className={`nav  ${navOpen ? "nav__fullscreen" : ""}`}>
       <div className='nav__logo-container'>
@@ -36,36 +35,42 @@ const Navbar = () => {
           <FaBars />
         </a>
         <NavLink
+          onClick={() => toggleNav()}
           to='/soundboard'
           className={`nav__link ${navOpen ? "nav__link--open" : ""}`}
         >
           <h2 className='heading-secondary'>{strings.soundboard}</h2>
         </NavLink>
         <NavLink
+          onClick={() => toggleNav()}
           to='/users'
           className={`nav__link ${navOpen ? "nav__link--open" : ""}`}
         >
           <h2 className='heading-secondary'>{strings.users}</h2>
         </NavLink>
         <NavLink
+          onClick={() => toggleNav()}
           to='/news'
           className={`nav__link ${navOpen ? "nav__link--open" : ""}`}
         >
           <h2 className='heading-secondary'>{strings.news}</h2>
         </NavLink>
         <NavLink
+          onClick={() => toggleNav()}
           to='/info'
           className={`nav__link ${navOpen ? "nav__link--open" : ""}`}
         >
           <h2 className='heading-secondary'>{strings.info}</h2>
         </NavLink>
         <NavLink
+          onClick={() => toggleNav()}
           to='/links'
           className={`nav__link ${navOpen ? "nav__link--open" : ""}`}
         >
           <h2 className='heading-secondary'>{strings.links}</h2>
         </NavLink>
         <NavLink
+          onClick={() => toggleNav()}
           to={`${username ? "/account" : "/login"}`}
           className={`nav__link ${navOpen ? "nav__link--open" : ""}`}
         >
