@@ -210,8 +210,10 @@ body {
   text-align: center;
   transition: 0.2s all;
 }
-.nav__fullscreen {
-  height: 50vh;
+@media screen and (max-width: 56.25em) {
+  .nav__fullscreen {
+    height: 50vh;
+  }
 }
 .nav__logo-container {
   display: inline-block;
