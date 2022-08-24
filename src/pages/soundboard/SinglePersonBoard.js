@@ -1,9 +1,9 @@
-import sounds from "./sounds";
-import { useEffect, useState } from "react";
-import { FaArrowLeft, FaArrowRight, FaPlay, FaRandom } from "react-icons/fa";
-import soundboard_loc from "../../assets/localization/soundboard_loc";
-import LocalizedStrings from "react-localization";
-import { useSelector } from "react-redux";
+import sounds from './sounds';
+import { useEffect, useState } from 'react';
+import { FaArrowLeft, FaArrowRight, FaPlay, FaRandom } from 'react-icons/fa';
+import soundboard_loc from '../../assets/localization/soundboard_loc';
+import LocalizedStrings from 'react-localization';
+import { useSelector } from 'react-redux';
 
 const SinglePersonBoard = ({ name }) => {
   const strings = new LocalizedStrings(soundboard_loc);
@@ -12,13 +12,20 @@ const SinglePersonBoard = ({ name }) => {
 
   const currPerson = sounds.filter((item) => item.name === name)[0];
   const [currIndex, setCurrIndex] = useState(0);
+  let mp3 = new Audio(currPerson.sounds[0]);
 
   useEffect(() => {
     setCurrIndex(0);
   }, [name]);
 
   const playSound = (audio) => {
-    new Audio(audio).play();
+    console.log('clicked button:  ', mp3, '    ', audio);
+    mp3.pause();
+    console.log('paused:  ', mp3, '    ', audio, '    ', new Audio(audio));
+    mp3 = new Audio(audio);
+    console.log('set new mp3:  ', mp3, '    ', audio);
+    mp3.play();
+    console.log('playing mp3:  ', mp3, '    ', audio);
   };
 
   const prevIndex = () => {
@@ -63,7 +70,7 @@ const SinglePersonBoard = ({ name }) => {
       <h2 className='soundboard__playback-container--title'>
         {currPerson.name}
       </h2>
-      <h3 className="soundboard__playback-container--amount">
+      <h3 className='soundboard__playback-container--amount'>
         {`${strings.total} : ${currPerson.sounds.length}`}
       </h3>
       {/*currPerson.sounds.map((item, index) => {
@@ -94,7 +101,7 @@ const SinglePersonBoard = ({ name }) => {
           <FaRandom />
         </button>
         <button
-          className='soundboard__playback--play-btn soundboard__button' 
+          className='soundboard__playback--play-btn soundboard__button'
           onClick={() => playSound(currPerson.sounds[currIndex])}
         >
           <FaPlay />
