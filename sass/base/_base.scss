@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%; //1rem = 10px, 10/16 = 62.5%
+  height: 100%;
 
   @include respond(tab-land) {
     font-size: 56.25%; //1rem = 9px, 9/16 = 56.25%
@@ -27,12 +28,13 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
 .main {
-  height: 93vh;
-  margin-top: 7vh;
+  min-height: 95vh;
+  height: 100%;
+  margin-top: 5vh;
   background-color: $color-primary-dark;
 }

@@ -1,17 +1,20 @@
-@import "abstracts/functions";
-@import "abstracts/mixins";
-@import "abstracts/variables";
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
 
-@import "base/base";
-@import "base/animations";
-@import "base/typography";
-@import "base/utilities";
+@import 'base/base';
+@import 'base/animations';
+@import 'base/typography';
+@import 'base/utilities';
 
-@import "components/nav";
-@import "components/langBtn";
+@import 'components/nav';
+@import 'components/langBtn';
+@import 'components/personProfile';
 
-@import "layout/grid";
+@import 'layout/grid';
 
-@import "pages/home";
-@import "pages/error";
-@import "pages/soundboard";
+@import 'pages/home';
+@import 'pages/error';
+@import 'pages/soundboard';
+@import 'pages/links';
+@import 'pages/bandPage';

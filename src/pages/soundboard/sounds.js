@@ -1,119 +1,154 @@
-import badai4_1 from "../../assets/phs-soundpack/badai4/1.mp3";
-import badai4_2 from "../../assets/phs-soundpack/badai4/2.mp3";
-import badai4_3 from "../../assets/phs-soundpack/badai4/3.mp3";
+import badai4_1 from '../../assets/phs-soundpack/badai4/1.mp3';
+import badai4_2 from '../../assets/phs-soundpack/badai4/2.mp3';
+import badai4_3 from '../../assets/phs-soundpack/badai4/3.mp3';
+import badai4_4 from '../../assets/phs-soundpack/badai4/4.mp3';
+import badai4_5 from '../../assets/phs-soundpack/badai4/5.mp3';
+import badai4_6 from '../../assets/phs-soundpack/badai4/6.mp3';
+import badai4_7 from '../../assets/phs-soundpack/badai4/7.mp3';
+import badai4_8 from '../../assets/phs-soundpack/badai4/8.mp3';
+import badai4_9 from '../../assets/phs-soundpack/badai4/9.mp3';
 
-import chigrin_1 from "../../assets/phs-soundpack/chigrin/1.mp3";
+import chigrin_1 from '../../assets/phs-soundpack/chigrin/1.mp3';
+import chigrin_2 from '../../assets/phs-soundpack/chigrin/2.mp3';
+import chigrin_3 from '../../assets/phs-soundpack/chigrin/3.mp3';
 
-import meys_1 from "../../assets/phs-soundpack/meys/1.mp3";
-import meys_2 from "../../assets/phs-soundpack/meys/2.mp3";
-import meys_3 from "../../assets/phs-soundpack/meys/3.mp3";
-import meys_4 from "../../assets/phs-soundpack/meys/4.mp3";
-import meys_5 from "../../assets/phs-soundpack/meys/5.mp3";
-import meys_6 from "../../assets/phs-soundpack/meys/6.mp3";
-import meys_7 from "../../assets/phs-soundpack/meys/7.mp3";
-import meys_8 from "../../assets/phs-soundpack/meys/8.mp3";
-import meys_9 from "../../assets/phs-soundpack/meys/9.mp3";
-import meys_10 from "../../assets/phs-soundpack/meys/10.mp3";
-import meys_11 from "../../assets/phs-soundpack/meys/11.mp3";
-import meys_12 from "../../assets/phs-soundpack/meys/12.mp3";
-import meys_13 from "../../assets/phs-soundpack/meys/13.mp3";
-import meys_14 from "../../assets/phs-soundpack/meys/14.mp3";
-import meys_15 from "../../assets/phs-soundpack/meys/15.mp3";
-import meys_16 from "../../assets/phs-soundpack/meys/16.mp3";
-import meys_17 from "../../assets/phs-soundpack/meys/17.mp3";
-import meys_18 from "../../assets/phs-soundpack/meys/18.mp3";
-import meys_19 from "../../assets/phs-soundpack/meys/19.mp3";
-import meys_20 from "../../assets/phs-soundpack/meys/20.mp3";
-import meys_21 from "../../assets/phs-soundpack/meys/21.mp3";
-import meys_22 from "../../assets/phs-soundpack/meys/22.mp3";
-import meys_23 from "../../assets/phs-soundpack/meys/23.mp3";
-import meys_24 from "../../assets/phs-soundpack/meys/24.mp3";
-import meys_25 from "../../assets/phs-soundpack/meys/25.mp3";
-import meys_26 from "../../assets/phs-soundpack/meys/26.mp3";
-import meys_27 from "../../assets/phs-soundpack/meys/27.mp3";
-import meys_28 from "../../assets/phs-soundpack/meys/28.mp3";
-import meys_29 from "../../assets/phs-soundpack/meys/29.mp3";
-import meys_30 from "../../assets/phs-soundpack/meys/30.mp3";
-import meys_31 from "../../assets/phs-soundpack/meys/31.mp3";
-import meys_32 from "../../assets/phs-soundpack/meys/32.mp3";
-import meys_33 from "../../assets/phs-soundpack/meys/33.mp3";
-import meys_34 from "../../assets/phs-soundpack/meys/34.mp3";
-import meys_35 from "../../assets/phs-soundpack/meys/35.mp3";
-import meys_36 from "../../assets/phs-soundpack/meys/36.mp3";
-import meys_37 from "../../assets/phs-soundpack/meys/37.mp3";
-import meys_38 from "../../assets/phs-soundpack/meys/38.mp3";
-import meys_39 from "../../assets/phs-soundpack/meys/39.mp3";
-import meys_40 from "../../assets/phs-soundpack/meys/40.mp3";
-import meys_41 from "../../assets/phs-soundpack/meys/41.mp3";
-import meys_42 from "../../assets/phs-soundpack/meys/42.mp3";
-import meys_43 from "../../assets/phs-soundpack/meys/43.mp3";
+import meys_1 from '../../assets/phs-soundpack/meys/1.mp3';
+import meys_2 from '../../assets/phs-soundpack/meys/2.mp3';
+import meys_3 from '../../assets/phs-soundpack/meys/3.mp3';
+import meys_4 from '../../assets/phs-soundpack/meys/4.mp3';
+import meys_5 from '../../assets/phs-soundpack/meys/5.mp3';
+import meys_6 from '../../assets/phs-soundpack/meys/6.mp3';
+import meys_7 from '../../assets/phs-soundpack/meys/7.mp3';
+import meys_8 from '../../assets/phs-soundpack/meys/8.mp3';
+import meys_9 from '../../assets/phs-soundpack/meys/9.mp3';
+import meys_10 from '../../assets/phs-soundpack/meys/10.mp3';
+import meys_11 from '../../assets/phs-soundpack/meys/11.mp3';
+import meys_12 from '../../assets/phs-soundpack/meys/12.mp3';
+import meys_13 from '../../assets/phs-soundpack/meys/13.mp3';
+import meys_14 from '../../assets/phs-soundpack/meys/14.mp3';
+import meys_15 from '../../assets/phs-soundpack/meys/15.mp3';
+import meys_16 from '../../assets/phs-soundpack/meys/16.mp3';
+import meys_17 from '../../assets/phs-soundpack/meys/17.mp3';
+import meys_18 from '../../assets/phs-soundpack/meys/18.mp3';
+import meys_19 from '../../assets/phs-soundpack/meys/19.mp3';
+import meys_20 from '../../assets/phs-soundpack/meys/20.mp3';
+import meys_21 from '../../assets/phs-soundpack/meys/21.mp3';
+import meys_22 from '../../assets/phs-soundpack/meys/22.mp3';
+import meys_23 from '../../assets/phs-soundpack/meys/23.mp3';
+import meys_24 from '../../assets/phs-soundpack/meys/24.mp3';
+import meys_25 from '../../assets/phs-soundpack/meys/25.mp3';
+import meys_26 from '../../assets/phs-soundpack/meys/26.mp3';
+import meys_27 from '../../assets/phs-soundpack/meys/27.mp3';
+import meys_28 from '../../assets/phs-soundpack/meys/28.mp3';
+import meys_29 from '../../assets/phs-soundpack/meys/29.mp3';
+import meys_30 from '../../assets/phs-soundpack/meys/30.mp3';
+import meys_31 from '../../assets/phs-soundpack/meys/31.mp3';
+import meys_32 from '../../assets/phs-soundpack/meys/32.mp3';
+import meys_33 from '../../assets/phs-soundpack/meys/33.mp3';
+import meys_34 from '../../assets/phs-soundpack/meys/34.mp3';
+import meys_35 from '../../assets/phs-soundpack/meys/35.mp3';
+import meys_36 from '../../assets/phs-soundpack/meys/36.mp3';
+import meys_37 from '../../assets/phs-soundpack/meys/37.mp3';
+import meys_38 from '../../assets/phs-soundpack/meys/38.mp3';
+import meys_39 from '../../assets/phs-soundpack/meys/39.mp3';
+import meys_40 from '../../assets/phs-soundpack/meys/40.mp3';
+import meys_41 from '../../assets/phs-soundpack/meys/41.mp3';
+import meys_42 from '../../assets/phs-soundpack/meys/42.mp3';
+import meys_43 from '../../assets/phs-soundpack/meys/43.mp3';
+import meys_44 from '../../assets/phs-soundpack/meys/44.mp3';
+import meys_45 from '../../assets/phs-soundpack/meys/45.mp3';
+import meys_46 from '../../assets/phs-soundpack/meys/46.mp3';
 
-import pavel_1 from "../../assets/phs-soundpack/pavel/1.mp3";
-import pavel_2 from "../../assets/phs-soundpack/pavel/2.mp3";
-import pavel_3 from "../../assets/phs-soundpack/pavel/3.mp3";
-import pavel_4 from "../../assets/phs-soundpack/pavel/4.mp3";
-import pavel_5 from "../../assets/phs-soundpack/pavel/5.mp3";
-import pavel_6 from "../../assets/phs-soundpack/pavel/6.mp3";
-import pavel_7 from "../../assets/phs-soundpack/pavel/7.mp3";
-import pavel_8 from "../../assets/phs-soundpack/pavel/8.mp3";
-import pavel_9 from "../../assets/phs-soundpack/pavel/9.mp3";
-import pavel_10 from "../../assets/phs-soundpack/pavel/10.mp3";
-import pavel_11 from "../../assets/phs-soundpack/pavel/11.mp3";
+import pavel_1 from '../../assets/phs-soundpack/pavel/1.mp3';
+import pavel_2 from '../../assets/phs-soundpack/pavel/2.mp3';
+import pavel_3 from '../../assets/phs-soundpack/pavel/3.mp3';
+import pavel_4 from '../../assets/phs-soundpack/pavel/4.mp3';
+import pavel_5 from '../../assets/phs-soundpack/pavel/5.mp3';
+import pavel_6 from '../../assets/phs-soundpack/pavel/6.mp3';
+import pavel_7 from '../../assets/phs-soundpack/pavel/7.mp3';
+import pavel_8 from '../../assets/phs-soundpack/pavel/8.mp3';
+import pavel_9 from '../../assets/phs-soundpack/pavel/9.mp3';
+import pavel_10 from '../../assets/phs-soundpack/pavel/10.mp3';
+import pavel_11 from '../../assets/phs-soundpack/pavel/11.mp3';
+import pavel_12 from '../../assets/phs-soundpack/pavel/12.mp3';
+import pavel_13 from '../../assets/phs-soundpack/pavel/13.mp3';
 
-import sarty_1 from "../../assets/phs-soundpack/sarty/1.mp3";
-import sarty_2 from "../../assets/phs-soundpack/sarty/2.mp3";
-import sarty_3 from "../../assets/phs-soundpack/sarty/3.mp3";
-import sarty_4 from "../../assets/phs-soundpack/sarty/4.mp3";
-import sarty_5 from "../../assets/phs-soundpack/sarty/5.mp3";
-import sarty_6 from "../../assets/phs-soundpack/sarty/6.mp3";
-import sarty_7 from "../../assets/phs-soundpack/sarty/7.mp3";
-import sarty_8 from "../../assets/phs-soundpack/sarty/8.mp3";
-import sarty_9 from "../../assets/phs-soundpack/sarty/9.mp3";
-import sarty_10 from "../../assets/phs-soundpack/sarty/10.mp3";
-import sarty_11 from "../../assets/phs-soundpack/sarty/11.mp3";
-import sarty_12 from "../../assets/phs-soundpack/sarty/12.mp3";
-import sarty_13 from "../../assets/phs-soundpack/sarty/13.mp3";
-import sarty_14 from "../../assets/phs-soundpack/sarty/14.mp3";
-import sarty_15 from "../../assets/phs-soundpack/sarty/15.mp3";
+import sarty_1 from '../../assets/phs-soundpack/sarty/1.mp3';
+import sarty_2 from '../../assets/phs-soundpack/sarty/2.mp3';
+import sarty_3 from '../../assets/phs-soundpack/sarty/3.mp3';
+import sarty_4 from '../../assets/phs-soundpack/sarty/4.mp3';
+import sarty_5 from '../../assets/phs-soundpack/sarty/5.mp3';
+import sarty_6 from '../../assets/phs-soundpack/sarty/6.mp3';
+import sarty_7 from '../../assets/phs-soundpack/sarty/7.mp3';
+import sarty_8 from '../../assets/phs-soundpack/sarty/8.mp3';
+import sarty_9 from '../../assets/phs-soundpack/sarty/9.mp3';
+import sarty_10 from '../../assets/phs-soundpack/sarty/10.mp3';
+import sarty_11 from '../../assets/phs-soundpack/sarty/11.mp3';
+import sarty_12 from '../../assets/phs-soundpack/sarty/12.mp3';
+import sarty_13 from '../../assets/phs-soundpack/sarty/13.mp3';
+import sarty_14 from '../../assets/phs-soundpack/sarty/14.mp3';
+import sarty_15 from '../../assets/phs-soundpack/sarty/15.mp3';
+import sarty_16 from '../../assets/phs-soundpack/sarty/16.mp3';
+import sarty_17 from '../../assets/phs-soundpack/sarty/17.mp3';
+import sarty_18 from '../../assets/phs-soundpack/sarty/18.mp3';
+import sarty_19 from '../../assets/phs-soundpack/sarty/19.mp3';
 
-import shabobus_1 from "../../assets/phs-soundpack/sharbobus/1.mp3";
-import shabobus_2 from "../../assets/phs-soundpack/sharbobus/2.mp3";
-import shabobus_3 from "../../assets/phs-soundpack/sharbobus/3.mp3";
-import shabobus_4 from "../../assets/phs-soundpack/sharbobus/4.mp3";
-import shabobus_5 from "../../assets/phs-soundpack/sharbobus/5.mp3";
-import shabobus_6 from "../../assets/phs-soundpack/sharbobus/6.mp3";
-import shabobus_7 from "../../assets/phs-soundpack/sharbobus/7.mp3";
-import shabobus_8 from "../../assets/phs-soundpack/sharbobus/8.mp3";
-import shabobus_9 from "../../assets/phs-soundpack/sharbobus/9.mp3";
-import shabobus_10 from "../../assets/phs-soundpack/sharbobus/10.mp3";
-import shabobus_11 from "../../assets/phs-soundpack/sharbobus/11.mp3";
-import shabobus_12 from "../../assets/phs-soundpack/sharbobus/12.mp3";
-import shabobus_13 from "../../assets/phs-soundpack/sharbobus/13.mp3";
+import shabobus_1 from '../../assets/phs-soundpack/sharbobus/1.mp3';
+import shabobus_2 from '../../assets/phs-soundpack/sharbobus/2.mp3';
+import shabobus_3 from '../../assets/phs-soundpack/sharbobus/3.mp3';
+import shabobus_4 from '../../assets/phs-soundpack/sharbobus/4.mp3';
+import shabobus_5 from '../../assets/phs-soundpack/sharbobus/5.mp3';
+import shabobus_6 from '../../assets/phs-soundpack/sharbobus/6.mp3';
+import shabobus_7 from '../../assets/phs-soundpack/sharbobus/7.mp3';
+import shabobus_8 from '../../assets/phs-soundpack/sharbobus/8.mp3';
+import shabobus_9 from '../../assets/phs-soundpack/sharbobus/9.mp3';
+import shabobus_10 from '../../assets/phs-soundpack/sharbobus/10.mp3';
+import shabobus_11 from '../../assets/phs-soundpack/sharbobus/11.mp3';
+import shabobus_12 from '../../assets/phs-soundpack/sharbobus/12.mp3';
+import shabobus_13 from '../../assets/phs-soundpack/sharbobus/13.mp3';
 
-import vlab_1 from "../../assets/phs-soundpack/vlab/1.mp3";
-import vlab_2 from "../../assets/phs-soundpack/vlab/2.mp3";
+import vlab_1 from '../../assets/phs-soundpack/vlab/1.mp3';
+import vlab_2 from '../../assets/phs-soundpack/vlab/2.mp3';
+import vlab_3 from '../../assets/phs-soundpack/vlab/3.mp3';
 
-import woman_1 from "../../assets/phs-soundpack/woman/1.mp3";
-import woman_2 from "../../assets/phs-soundpack/woman/2.mp3";
-import woman_3 from "../../assets/phs-soundpack/woman/3.mp3";
-import woman_4 from "../../assets/phs-soundpack/woman/4.mp3";
-import woman_5 from "../../assets/phs-soundpack/woman/5.mp3";
+import woman_1 from '../../assets/phs-soundpack/woman/1.mp3';
+import woman_2 from '../../assets/phs-soundpack/woman/2.mp3';
+import woman_3 from '../../assets/phs-soundpack/woman/3.mp3';
+import woman_4 from '../../assets/phs-soundpack/woman/4.mp3';
+import woman_5 from '../../assets/phs-soundpack/woman/5.mp3';
+import woman_6 from '../../assets/phs-soundpack/woman/6.mp3';
+import woman_7 from '../../assets/phs-soundpack/woman/7.mp3';
+import woman_8 from '../../assets/phs-soundpack/woman/8.mp3';
+import woman_9 from '../../assets/phs-soundpack/woman/9.mp3';
+import woman_10 from '../../assets/phs-soundpack/woman/10.mp3';
+import woman_11 from '../../assets/phs-soundpack/woman/11.mp3';
+import woman_12 from '../../assets/phs-soundpack/woman/12.mp3';
 
 const sounds = [
   {
-    name: "badai4",
+    name: 'badai4',
     id: 0,
-    sounds: [badai4_1, badai4_2, badai4_3],
+    sounds: [
+      badai4_1,
+      badai4_2,
+      badai4_3,
+      badai4_4,
+      badai4_5,
+      badai4_6,
+      badai4_7,
+      badai4_8,
+      badai4_9,
+    ],
   },
 
   {
-    name: "chigrin",
+    name: 'chigrin',
     id: 1,
-    sounds: [chigrin_1],
+    sounds: [chigrin_1, chigrin_2, chigrin_3],
   },
 
   {
-    name: "meys",
+    name: 'meys',
     id: 2,
     sounds: [
       meys_1,
@@ -159,11 +194,14 @@ const sounds = [
       meys_41,
       meys_42,
       meys_43,
+      meys_44,
+      meys_45,
+      meys_46,
     ],
   },
 
   {
-    name: "pavel",
+    name: 'pavel',
     id: 3,
     sounds: [
       pavel_1,
@@ -177,11 +215,13 @@ const sounds = [
       pavel_9,
       pavel_10,
       pavel_11,
+      pavel_12,
+      pavel_13,
     ],
   },
 
   {
-    name: "sarty",
+    name: 'sarty',
     id: 4,
     sounds: [
       sarty_1,
@@ -199,11 +239,15 @@ const sounds = [
       sarty_13,
       sarty_14,
       sarty_15,
+      sarty_16,
+      sarty_17,
+      sarty_18,
+      sarty_19,
     ],
   },
 
   {
-    name: "sharbobus",
+    name: 'sharbobus',
     id: 5,
     sounds: [
       shabobus_1,
@@ -223,15 +267,28 @@ const sounds = [
   },
 
   {
-    name: "vlab",
+    name: 'vlab',
     id: 6,
-    sounds: [vlab_1, vlab_2],
+    sounds: [vlab_1, vlab_2, vlab_3],
   },
 
   {
-    name: "woman",
+    name: 'woman',
     id: 7,
-    sounds: [woman_1, woman_2, woman_3, woman_4, woman_5],
+    sounds: [
+      woman_1,
+      woman_2,
+      woman_3,
+      woman_4,
+      woman_5,
+      woman_6,
+      woman_7,
+      woman_8,
+      woman_9,
+      woman_10,
+      woman_11,
+      woman_12,
+    ],
   },
 ];
 

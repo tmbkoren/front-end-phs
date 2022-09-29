@@ -1,0 +1,12 @@
+.band-page {
+  padding: 2rem;
+
+  &__invite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+}
